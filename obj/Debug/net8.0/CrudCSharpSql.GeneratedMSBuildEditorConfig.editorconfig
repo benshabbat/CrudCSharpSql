@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\bensh\OneDrive\שולחן העבודה\CrudCSharpSql
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/bensh/OneDrive/שולחן העבודה/CrudCSharpSql/Pages/Colors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bensh/OneDrive/שולחן העבודה/CrudCSharpSql/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
