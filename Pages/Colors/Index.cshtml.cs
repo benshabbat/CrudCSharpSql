@@ -30,7 +30,7 @@ namespace CrudCSharpSql.Pages.Colors
                                 ColorInfo color = new ColorInfo();
                                 color.Id = reader.GetInt32(0);
                                 color.Name = reader.GetString(1);
-                                color.Price = reader.GetDouble(2);
+                                color.Price = reader.GetDecimal(2);
                                 color.IsInStock = reader.GetBoolean(3);
                                 ColorsList.Add(color);
                             }
@@ -51,7 +51,7 @@ namespace CrudCSharpSql.Pages.Colors
         public int Id { get; set; }
         public string Name { get; set; } = "";
 
-        public double Price { get; set; } = 0.0;
+        public decimal  Price { get; set; } = 0.0m;
 
         public bool IsInStock { get; set; } = false;
     }

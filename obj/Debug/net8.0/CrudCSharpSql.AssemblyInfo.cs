@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudCSharpSql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19935a3cfb808306a03bfbf863f4d28a013270a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+335a2cf5c1f4101a33637d627ed62be332ebe002")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudCSharpSql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudCSharpSql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

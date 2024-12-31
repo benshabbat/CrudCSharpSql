@@ -20,16 +20,16 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.ColorsList)
+        @foreach (var color in Model.ColorsList)
         {
             <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.Price</td>
-                <td>@item.IsInStock</td>
+                <td>@color.Id</td>
+                <td>@color.Name</td>
+                <td>@color.Price</td>
+                <td>@color.IsInStock</td>
                 <td>
-                    <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
-                    <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    <a asp-page="Edit" asp-route-id="@color.Id" class="btn btn-primary">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@color.Id" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }
