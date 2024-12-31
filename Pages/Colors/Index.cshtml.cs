@@ -19,10 +19,10 @@ namespace CrudCSharpSql.Pages.Colors
     public class ColorInfo
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; } = "";
         
-        public double Price { get; set; }
+        public double Price { get; set; } = 0.0;
 
-        public bool IsInStock { get; set; }
+        public bool IsInStock { get; set; } = false;
     }
 }
